@@ -26,7 +26,7 @@ export const Header: React.FC = () => {
             <>
               <img
                 className="h-25 w-25 rounded-full object-contain"
-                src={"/public/logo.png"}
+                src={"/logo.png"}
                 alt={
                   String(contractMetadata?.name) ||
                   String(firstNFT?.metadata.name) ||
