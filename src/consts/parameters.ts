@@ -9,7 +9,7 @@ export const client = createThirdwebClient({
 
 export const nftContract = getContract({
   // Your smart contract address (available on the thirdweb dashboard)
-  address: "0xed5af388653567af2f388e6224dc7c4b3241c544",
+  address: "0x896e885435a5178a064458f271e73144762dD2b4",
   // The chain object of the chain your contract is deployed to.
   // If that chain isn't in the default list of our SDK, use `defineChain` - for example: defineChain(666666)
   chain: ethereum,
